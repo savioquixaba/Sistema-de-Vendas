@@ -25,16 +25,7 @@ namespace VendasCRUD
             MessageBox.Show("Quantidade de vendas retornadas: " + vendas.Count);
             dataGridViewListar.AutoGenerateColumns = true;
             dataGridViewListar.DataSource = vendas;
-            //dataGridViewListar.DataSource = vendas;
-
-            //dataGridViewListar.Columns.Clear();
-
-            //dataGridViewListar.Columns.Add("IdCliente", "ID Cliente");
-            //dataGridViewListar.Columns.Add("NomeCliente", "Nome Cliente");
-            //dataGridViewListar.Columns.Add("DataVenda", "Data Venda");
-            //dataGridViewListar.Columns.Add("ProdutoVendido", "Produto Vendido");
-            //dataGridViewListar.Columns.Add("Email", "Email");
-            //dataGridViewListar.Columns.Add("NumeroTelefone", "Número Telefone");
+            
             if (vendas.Count == 0)
             {
                 MessageBox.Show("Nenhuma venda encontrada.");
