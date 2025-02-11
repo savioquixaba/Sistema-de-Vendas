@@ -1,0 +1,30 @@
+## Visual Studio ##
+## https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Arquivos de usuário
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Diretórios da IDE
+.vs/
+.vscode/
+
+# NuGet
+packages/
+*.nupkg
+
+# Outros
+*.cache
+*.log
